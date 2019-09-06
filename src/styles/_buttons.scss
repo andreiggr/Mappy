@@ -1,0 +1,15 @@
+.button {
+    font-size: $font-large;
+    @include border-radius(6px);
+    font-weight: bold;
+    margin: $elements-margin;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+
+    &--primary {
+        color: $button-primary-color;
+        background-color: $button-primary-background;
+    }
+  }

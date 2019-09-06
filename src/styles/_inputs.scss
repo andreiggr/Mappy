@@ -1,0 +1,11 @@
+.input {
+    &--text {
+        font-size: $font-large;
+        padding: 10px;
+        margin: $elements-margin;
+        @include border-radius(6px);
+        border: none;
+        color: $highlight-text-color;
+        font-weight: bold;
+    }
+  }

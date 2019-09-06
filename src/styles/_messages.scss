@@ -1,0 +1,27 @@
+.notify {
+    background: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    &--inactive {
+      font-size: $font-large;
+      color: $primary-text-color;
+    }
+
+    &--active {
+      font-size: $font-large;
+      color: $primary-text-color;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+     
+    }
+
+    &__highlight {
+        font-weight: bold;
+        color: $highlight-text-color;
+        text-transform: uppercase;
+        margin-left: 4px;
+        margin-right: 4px;
+      }
+  }
